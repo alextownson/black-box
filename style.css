@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 8pt;
+}
+
+#title{
+    position: absolute;
+    z-index: 1;
+    margin-top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#move{
+    position: absolute;
+    z-index: 1;
+    margin-top: 30px;
+    top: 50%;
+    transform: rotate(90DEG) 
+    translate(-50%, -50%);
+}
+
+#effects{
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 30px;
+    left: 50%;
+    bottom: 0%;
+    transform:
+    translate(-50%, -50%);
+}
+
+#sound{
+    position: absolute;
+    z-index: 1;
+    margin-top: 30px;
+    bottom: 53%;
+    right:0%;
+    transform: rotate(-90DEG) 
+    translate(-50%, -50%);
+}
+
+canvas{
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button.button1{
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* button.record {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    bottom: 4%;
+    left: calc(50% - 50px);
+    border-color: black;
+}
+
+
+button.record:hover{
+    background-color: black;
+    cursor: pointer;
+} */
